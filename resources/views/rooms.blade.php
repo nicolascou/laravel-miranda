@@ -30,7 +30,7 @@
         <p class="rooms-flex__box__card__text">Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor.</p>
         <div class="rooms-flex__box__card__bottom-flex">
           <p class="rooms-flex__box__card__price">{{ $room['offer'] }}/Night</p>
-          <a class="rooms-flex__box__card__booking" href="/src/controllers/room_details.php?id={{ $room['id'] }}">Book Now</a>
+          <a class="rooms-flex__box__card__booking" href="/rooms/{{ $room['id'] }}">Book Now</a>
         </div>
       </div>
     </div>
