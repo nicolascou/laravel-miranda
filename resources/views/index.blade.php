@@ -16,7 +16,7 @@
   </div>
 
   <div class="calendar">
-    <form class="calendar__form" method="post">
+    <form class="calendar__form" method="get" action="/rooms">
       <div class="calendar__form__flex-desktop">
         <div class="calendar__form__input-box">
           <label for="arrival" class="calendar__form__label">Arrival Date</label>
