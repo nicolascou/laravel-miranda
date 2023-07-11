@@ -44,6 +44,7 @@
       style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
     </iframe>
     <form method="post" class="contact__form">
+      @csrf
       <div class="contact__form__row">
         <div class="contact__form__input">
           <img src="img/icons/user.svg" alt="" width="16" height="16" style="filter: invert(0.45) sepia(1);">
